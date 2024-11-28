@@ -1,0 +1,10 @@
+﻿house.csv
+
+Chart: Scatter
+X Axis: longitude
+Y Axis: latitude
+Z Axis: -- none --
+Color By: median_house_value
+Size by: -- none --
+Facet By: ocean_proximity
+Facet Layout: Wrap

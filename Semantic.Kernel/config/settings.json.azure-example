@@ -1,0 +1,14 @@
+{
+  "type": "azure",
+  "model": "",
+  "embedding": "",
+  "endpoint": "",
+  "apikey": "",
+  "org": "",
+  "bing": "",
+  "tenant": "",
+  "client": "",
+  "secret": "",
+  "searchService": "",
+  "searchKey": ""
+}

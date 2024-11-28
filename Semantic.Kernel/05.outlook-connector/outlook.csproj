@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>outlook</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+    <NoWarn>$(NoWarn);SKEXP0050;SKEXP0053</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\config\Settings.cs" Link="Settings.cs" />
+    <Compile Include="..\config\Utils.cs" Link="Utils.cs" />
+    <PackageReference Include="Azure.Identity" Version="1.13.1" />
+    <PackageReference Include="Microsoft.SemanticKernel" Version="1.30.0" />
+    <PackageReference Include="Microsoft.SemanticKernel.Plugins.MsGraph" Version="1.30.0-alpha" />
+  </ItemGroup>
+</Project>

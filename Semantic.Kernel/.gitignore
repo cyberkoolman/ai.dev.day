@@ -1,0 +1,9 @@
+settings.json
+.vscode
+bin
+obj
+.ipy*
+*.ini
+*.cache
+*.log
+*.tmp

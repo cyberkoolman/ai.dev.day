@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>bing</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+    <NoWarn>$(NoWarn);SKEXP0050;SKEXP0054</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\config\Settings.cs" Link="Settings.cs" />
+    <Compile Include="..\config\Utils.cs" Link="Utils.cs" />
+    <PackageReference Include="Microsoft.SemanticKernel" Version="1.30.0" />
+    <PackageReference Include="Microsoft.SemanticKernel.Plugins.Web" Version="1.30.0-alpha" />
+  </ItemGroup>
+
+</Project>

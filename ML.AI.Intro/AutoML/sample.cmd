@@ -1,0 +1,1 @@
+mlnet regression --dataset .\bike_rental.csv --label-col cnt --train-time 20

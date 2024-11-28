@@ -1,0 +1,11 @@
+﻿hour_train.csv
+
+Chart: Stacks
+X Axis: weekday
+Y Axis: atemp
+Z Axis: Count (cnt)
+Color By & Sort By: casual (default) => picked up the relationship
+Facet By: mnth
+Facet Layout: yr
+
+scroll around to see the distribution around high temperature
